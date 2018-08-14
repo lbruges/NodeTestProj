@@ -1,0 +1,20 @@
+Instalar heroku
+heroku login
+
+clonar repo
+heroku create
+
+
+Desplegar aplicación:
+git push heroku master
+
+Verificar que la aplicación está corriendo:
+heroku ps:scale web=1
+
+Atajo para abrir la página:
+
+heroku open
+
+Ver logs:
+
+heroku logs --tail
